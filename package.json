@@ -1,0 +1,29 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "A template Discord bot :)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "installall": "npm install build-essentials && npm install discord.js && npm install opusscript && npm install ms"
+  },
+  "author": "sysollie",
+  "license": "The Unlicense",
+  "dependencies": {
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.2.0",
+    "dyno": "^1.4.1",
+    "dyno-item-size": "^0.3.3",
+    "erela.js": "^1.1.8",
+    "fortnite": "^4.3.2",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "opusscript": "0.0.7",
+    "os": "^0.1.1",
+    "ytdl-core": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
